@@ -1,0 +1,19 @@
+# Ada build artifacts
+*.o
+*.ali
+*.exe
+*.out
+
+# GNAT-specific
+gnatmake/
+*.gpr
+
+# Temporary or backup files
+*~
+*.bak
+*.tmp
+*.swp
+
+# Editor settings
+.vscode/
+.idea/
