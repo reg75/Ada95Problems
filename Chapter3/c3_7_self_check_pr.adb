@@ -1,6 +1,6 @@
 with Ada.Float_Text_IO;
 with Ada.Text_IO;
-procedure c3_7_1_self_check_pr is
+procedure c3_7_self_check_pr is
 
 -- Solution for 3.7 Self-Check Exercise 1
 -- Author: Paul Regnier | Last Modified: June 2025
@@ -21,5 +21,7 @@ begin
    Ada.Text_IO.New_Line;
    Ada.Float_Text_IO.Put(Item => Z, Fore => 2, Aft => 2, Exp => 0);
    Ada.Text_IO.New_Line;
+   Ada.Text_IO.Put("The value of X is ");
+   Ada.Float_Text_IO.Put(X, Fore => 7, Aft => 2, Exp => 0);
 
-end c3_7_1_self_check_pr;
+end c3_7_self_check_pr;
