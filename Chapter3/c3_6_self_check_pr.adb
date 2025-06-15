@@ -1,4 +1,3 @@
-with Ada.Integer_Text_IO;
 procedure c3_6_self_check_pr is
 
 -- Solutions for 3.6 Self-Check exercises
