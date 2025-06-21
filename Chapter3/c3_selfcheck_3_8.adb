@@ -21,6 +21,8 @@ i : Integer;
 color, lime, straw, red, orange : Integer;
 black, white, green, purple, crayon : Float;
 
+varA, varB, varC, varX : Float := 1.0;
+varI, varJ, varK : Integer := 1;
 
 begin
    
@@ -153,6 +155,16 @@ begin
    Ada.Integer_Text_IO.Put(Item => lime, Width => 0); -- 2
    -- purple := straw / red * color; -- f) Invalid (assigning Integer to Float variable)
    Ada.Text_IO.New_Line(2);
+
+-- Question 5
+   Ada.Text_IO.Put_Line (Item => "Question 5: See code for solutions" );
+   varX := 4.0 * varA * varC; -- a)
+   varA := varA * varC; -- b)
+   varI := 2 * (-varJ); -- c)
+   varK := 3 * (varI + varJ); -- d)
+   varX := (5.0 * varA) / (varB * varC); -- e)
+   varI := 5 * varJ * 3; -- f)
+
 
 
 end c3_selfcheck_3_8;
