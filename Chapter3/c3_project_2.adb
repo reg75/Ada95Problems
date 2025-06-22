@@ -4,7 +4,7 @@ with Ada.Float_Text_IO;
 
 procedure c3_project_2 is
 -----------------------------------------------------------------
---| Solution to Chapter 3 Programming Project 1
+--| Solution to Chapter 3 Programming Project 2
 --| Reads weight in pounds converts to Kg and g
 --| Author: Paul Regnier | Last Modified: June 2025
 -----------------------------------------------------------------
