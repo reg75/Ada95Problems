@@ -75,10 +75,10 @@ begin
    Ada.Text_IO.Put_Line(Item => strY);
    Ada.Text_IO.Put_Line(Item => "Textbook answer: The blank will be read into y; the enter will be skipped,");
    Ada.Text_IO.Put(Item => " and the next character (if it is not an enter) will be read into y.");
+   Ada.Text_IO.New_Line(2);
 
-
-
-
-   
+   -- Question 8 Solution
+   Ada.Text_IO.Put_Line(Item => "Question 8:");
+   Ada.Text_IO.Put_Line (Item => "Compilation errors, syntax errors");  
 
 end c3_quickcheck;
