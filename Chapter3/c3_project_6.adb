@@ -3,9 +3,9 @@ with Ada.Float_Text_IO;
 
 procedure c3_project_6 is
 -----------------------------------------------------------------
---| Solution to Chapter 3 Programming Project 5
---| Calculates feet per second and metres per second,
---| given a time for a 1 mile race.
+--| Solution to Chapter 3 Programming Project 6
+--| Calculates acceleration and time to come to rest,
+--| given initial and final velocities
 --| Author: Paul Regnier | Last Modified: June 2025
 -----------------------------------------------------------------
 
